@@ -24,3 +24,11 @@ git reset commitId
 git log
 git log --oneline
 
+// associe git local to remote 
+git remote add origin http................................
+
+// how to show all remote on local
+git remote -v
+
+// how to push branch on local to remote ?
+git push origin branchLocal:branchRemote
