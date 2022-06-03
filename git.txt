@@ -32,3 +32,8 @@ git remote -v
 
 // how to push branch on local to remote ?
 git push origin branchLocal:branchRemote
+
+
+// how to clone project from remote to local 
+git clone https................................................................
+
