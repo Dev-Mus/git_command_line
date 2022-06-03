@@ -1,0 +1,26 @@
+// init project git
+git init
+
+// how to add file into git ?
+git add file_name 
+
+// git commit message (fix les changement)
+git commit -m "message: " 
+
+// how to create branch ?
+git branch branchName 
+
+// comment acceder vers une branch 
+git checkout branchName
+git switch branchName
+
+// create branch and switch to them
+git checkout -b branchName
+
+// how to reset index of commit 
+git reset commitId
+
+// how to show all commit
+git log
+git log --oneline
+
