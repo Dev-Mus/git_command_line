@@ -16,9 +16,11 @@ git switch branchName
 
 // create branch and switch to them
 git checkout -b branchName
+git switch 0c branchName
 
 // how to reset index of commit 
 git reset commitId
+git reset Head
 
 // how to show all commit
 git log
@@ -36,4 +38,9 @@ git push origin branchLocal:branchRemote
 
 // how to clone project from remote to local 
 git clone https................................................................
+
+// better log format 
+git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Cblue - %cn %Creset' --abbrev-commit --date=relative
+git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Cblue - %cn %Creset' --abbrev-commit --date=relative --graph
+
 
