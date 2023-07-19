@@ -16,7 +16,7 @@ git switch branchName
 
 // create branch and switch to them
 git checkout -b branchName
-git switch 0c branchName
+git switch -c branchName
 
 // how to reset index of commit 
 git reset commitId
